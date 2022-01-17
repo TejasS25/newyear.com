@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+.nav{
+    background-color:rgba(34,19,51,1);
+    text-align: center;
+    display: flex;
+    
+}
+ .nav ul{
+    list-style-type: none;
+    /* padding: 20px; */
+    margin: 0px;
+    overflow: hidden;
+    
+}
+.nav ul a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    font-size: 18px;
+}
+.nav ul a:hover{
+    color: navy;
+}
+
+.nav ul li{
+    float: left;
+}
+.button{
+  background-color:rgba(255, 255, 255, 0.233);
+  border: 1px solid black;
+  border-radius: 20px;
+  color: white;
+  margin: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button:hover{
+    color: navy;
+    background-color: white;
+}
+/* .banner{
+    background-image: url('banner.jpg');
+    position: relative;
+    width: 100%;
+    height: 600px;
+} */
+.container{
+    position: relative;
+    text-align: center;
+    color: black;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+}
+.banner-content{
+    position: absolute;
+    top: 7%;
+    left: 30%;
+    transform: translaq1ate(-50%, -50%);
+    color: black;
+}
+.head{
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'Kings', cursive;
+    padding-bottom: 0px;
+    /* margin-bottom: 8px; */
+    padding-top: 10px;
+}
+.head1{
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    font-size: 120px;
+    color: white;
+    padding-top: 0px;
+    margin-top: 6px;
+    /* margin-bottom: 4px; */
+
+}
+.head2{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 8px;
+}
+.but1{
+    background-color: rgba(255, 255, 255, 0.233);
+    color: white;
+    padding: 18px;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+
+}
+.but1:hover{
+    background-color: white;
+    color: black;
+    
+}
+.content{
+    color: white;
+    background-color:rgba(34,19,51,1);
+    text-align: center;
+    padding: 60px;
+
+    /* margin-top: 0%; */
+    
+}
+.para{
+    font-size: 18px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/* .first{
+
+    background-color: red;
+} */
+.room{
+    background-image: url('1.jpg');
+    background-size:cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    
+}
+.heading{
+    font-size: 40px;
+}
+.text{
+    text-align: center;
+
+}
+.textpara{
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 25px;
+    padding: 40px;
+    padding-top: 5px;
+}
+.text a{
+    font-size: 20px;
+    color: black;
+}
+.text a:hover{
+    color: red;
+}
+.restaurant{
+    background-image: url('2.jpg');
+    background-size:cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    
+}
+.bar{
+    background-image: url('3.jpg');
+    background-size:cover;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+.brava{
+    text-align: center;
+    padding: 50px 90px;
+    line-height: 1.6;
+}
+.fontfamily{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.sect{
+    background-color: aliceblue;
+}
+.textpara1{
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 20px;
+    padding: 40px;
+    padding-top: 5px;
+    line-height: 1.6;
+}
+.exp{
+    background-color: aliceblue;
+}
+.expic{
+    background-image: url('4.jpg');
+    background-size:cover;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+footer{
+    background-color:rgba(34,19,51,1);
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.icon{
+    font-size: 30px;
+    padding: 15px;
+    
+}
+.icon a{
+    padding: 10px;
+}
+.icon a:hover{
+    color: gold;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kings&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Courgette&family=Kings&display=swap'); */
